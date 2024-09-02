@@ -35,9 +35,9 @@ Widget mobileLayout() {
               backgroundColor: Colors.green,
               padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 20),
             ),
-            child: const Text(
-              'mobilebtn',
-              style: TextStyle(
+            child: Text(
+               viewModel.model.btnText,
+              style: const TextStyle(
                 fontSize: 16,
                 color: Colors.white,
               ),
